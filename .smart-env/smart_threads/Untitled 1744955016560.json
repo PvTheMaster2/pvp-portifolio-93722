@@ -1,0 +1,195 @@
+{
+  "path": ".smart-env/smart_threads/Untitled 1744955016560.json",
+  "last_embed": {
+    "hash": null
+  },
+  "embeddings": {},
+  "last_read": {
+    "hash": null,
+    "mtime": 0
+  },
+  "created_at": 1744955016560,
+  "responses": {
+    "msg_01TPVxbwMHdsVaGE5ywFF1nE": {
+      "id": "msg_01TPVxbwMHdsVaGE5ywFF1nE",
+      "object": "chat.completion",
+      "created": 1744955061210,
+      "choices": [
+        {
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "content": "",
+            "tool_calls": [
+              {
+                "id": "toolu_01PiEeVq2fAhKP9mTu29hSH3",
+                "type": "function",
+                "function": {
+                  "name": "lookup",
+                  "arguments": "{\"hypotheticals\":{\"1\":\"# Fluxo de Trabalho para Atualização do MOC de Yoga\\n\\n1. Verificar mensalmente novas notas relacionadas a yoga\\n2. Atualizar seções principais com novos links\\n3. Revisar e atualizar subseções por tópico\\n4. Gerar relatório de conexões entre notas\",\"2\":\"# Estrutura de Organização do MOC de Yoga\\n\\n- Seções Principais (1-69)\\n- Subseções organizadas hierarquicamente\\n- Links bidirecionais entre notas relacionadas\\n- Tags para categorização temática\",\"3\":\"# Sugestões de Melhorias para o MOC\\n\\n1. Adicionar índice remissivo\\n2. Implementar sistema de tags mais granular\\n3. Criar visualizações gráficas das conexões\\n4. Estabelecer workflows de manutenção\"}}"
+                }
+              }
+            ]
+          },
+          "finish_reason": "function_call"
+        }
+      ],
+      "usage": {
+        "prompt_tokens": 20742,
+        "completion_tokens": 271,
+        "total_tokens": 21013
+      }
+    }
+  },
+  "messages": {
+    "user-1-1744955053870-1": 1,
+    "assistant-2-1744955061212-1": 2,
+    "tool-3-1": 3
+  },
+  "branches": {},
+  "class_name": "SmartThread2",
+  "key": "Untitled 1744955016560",
+  "blocks": [
+    {
+      "path": null,
+      "last_embed": {
+        "hash": null
+      },
+      "embeddings": {},
+      "text": null,
+      "length": 0,
+      "last_read": {
+        "hash": null,
+        "at": 0
+      },
+      "thread_key": "Untitled 1744955016560",
+      "content": [
+        {
+          "type": "text",
+          "text": "4. Fluxo de Trabalho para Execução Periódica\nConfigure um script para execução mensal que:\nAtualize o MOC com novas notas\nSugira novas conexões entre notas existentes\nGere relatórios de tópicos sem conexões adequadas\n\n[[30 - MPS OF CONTENT/Yoga MOC.md]] /10 - PERMANENT/Zettels/Yoga/"
+        }
+      ],
+      "role": "user",
+      "tool_calls": null,
+      "tool_call_id": null,
+      "msg_i": 1,
+      "id": "user-1-1744955053870-1",
+      "context": {
+        "internal_links": [
+          "30 - MPS OF CONTENT/Yoga MOC.md"
+        ],
+        "folder_refs": [
+          "10 - PERMANENT/Zettels/Yoga",
+          "30 - MPS OF CONTENT",
+          "Yoga"
+        ]
+      },
+      "tool_call_output": null,
+      "class_name": "SmartMessage",
+      "branch_i": "1744955053870-1",
+      "key": "Untitled 1744955016560#user-1-1744955053870-1"
+    },
+    {
+      "path": null,
+      "last_embed": {
+        "hash": null
+      },
+      "embeddings": {},
+      "text": null,
+      "length": 0,
+      "last_read": {
+        "hash": null,
+        "at": 0
+      },
+      "thread_key": "Untitled 1744955016560",
+      "content": "",
+      "role": "assistant",
+      "tool_calls": [
+        {
+          "id": "toolu_01PiEeVq2fAhKP9mTu29hSH3",
+          "type": "function",
+          "function": {
+            "name": "lookup",
+            "arguments": "{\"hypotheticals\":{\"1\":\"# Fluxo de Trabalho para Atualização do MOC de Yoga\\n\\n1. Verificar mensalmente novas notas relacionadas a yoga\\n2. Atualizar seções principais com novos links\\n3. Revisar e atualizar subseções por tópico\\n4. Gerar relatório de conexões entre notas\",\"2\":\"# Estrutura de Organização do MOC de Yoga\\n\\n- Seções Principais (1-69)\\n- Subseções organizadas hierarquicamente\\n- Links bidirecionais entre notas relacionadas\\n- Tags para categorização temática\",\"3\":\"# Sugestões de Melhorias para o MOC\\n\\n1. Adicionar índice remissivo\\n2. Implementar sistema de tags mais granular\\n3. Criar visualizações gráficas das conexões\\n4. Estabelecer workflows de manutenção\"}}"
+          }
+        }
+      ],
+      "tool_call_id": null,
+      "msg_i": 2,
+      "id": "assistant-2-1744955061212-1",
+      "context": {},
+      "tool_call_output": null,
+      "class_name": "SmartMessage",
+      "response_id": "msg_01TPVxbwMHdsVaGE5ywFF1nE",
+      "branch_i": "1744955061212-1",
+      "key": "Untitled 1744955016560#assistant-2-1744955061212-1"
+    },
+    {
+      "path": null,
+      "last_embed": {
+        "hash": null
+      },
+      "embeddings": {},
+      "text": null,
+      "length": 0,
+      "last_read": {
+        "hash": null,
+        "at": 0
+      },
+      "thread_key": "Untitled 1744955016560",
+      "content": null,
+      "role": "tool",
+      "tool_calls": null,
+      "tool_call_id": "toolu_01PiEeVq2fAhKP9mTu29hSH3",
+      "msg_i": 3,
+      "id": "tool-3-1",
+      "context": {},
+      "tool_call_output": [
+        {
+          "key": "30 - MPS OF CONTENTS/Yoga MOC.md#🧘 Mapa de Conteúdo: Trato de Yôga#🔍 Subseções por Tópico#27 – Yôganidrá#{6}",
+          "score": 0.8375253274414182
+        },
+        {
+          "key": "30 - MPS OF CONTENTS/Yoga MOC.md#🧘 Mapa de Conteúdo: Trato de Yôga#🔍 Subseções por Tópico#24 – Pránáyáma#{49}",
+          "score": 0.8373092052969942
+        },
+        {
+          "key": "30 - MPS OF CONTENTS/Yoga MOC.md#🧘 Mapa de Conteúdo: Trato de Yôga#🔍 Subseções por Tópico#27 – Yôganidrá#{4}",
+          "score": 0.8367757463449639
+        },
+        {
+          "key": "30 - MPS OF CONTENTS/Yoga MOC.md#🧘 Mapa de Conteúdo: Trato de Yôga#🔍 Subseções por Tópico#27 – Yôganidrá",
+          "score": 0.8333541959338511
+        },
+        {
+          "key": "30 - MPS OF CONTENTS/Yoga MOC.md#🧘 Mapa de Conteúdo: Trato de Yôga#🔍 Subseções por Tópico#26 – Ásana",
+          "score": 0.8320168539041695
+        },
+        {
+          "key": "30 - MPS OF CONTENTS/Yoga MOC.md#🧘 Mapa de Conteúdo: Trato de Yôga#🔍 Subseções por Tópico#24 – Pránáyáma#{27}",
+          "score": 0.8299038576954568
+        },
+        {
+          "key": "30 - MPS OF CONTENTS/Yoga MOC.md#🧘 Mapa de Conteúdo: Trato de Yôga#🔍 Subseções por Tópico#27 – Yôganidrá#{2}",
+          "score": 0.8282461057700309
+        },
+        {
+          "key": "30 - MPS OF CONTENTS/Yoga MOC.md#🧘 Mapa de Conteúdo: Trato de Yôga#🔍 Subseções por Tópico#24 – Pránáyáma#{57}",
+          "score": 0.8275337657248004
+        },
+        {
+          "key": "30 - MPS OF CONTENTS/Yoga MOC.md#🧘 Mapa de Conteúdo: Trato de Yôga#🔍 Subseções por Tópico#24 – Pránáyáma#{25}",
+          "score": 0.8266613339740625
+        },
+        {
+          "key": "30 - MPS OF CONTENTS/Yoga MOC.md#🧘 Mapa de Conteúdo: Trato de Yôga#🔍 Subseções por Tópico#27 – Yôganidrá#{8}",
+          "score": 0.8250319659121982
+        }
+      ],
+      "class_name": "SmartMessage",
+      "tool_name": "lookup",
+      "response_id": "toolu_01PiEeVq2fAhKP9mTu29hSH3",
+      "key": "Untitled 1744955016560#tool-3-1"
+    }
+  ]
+}

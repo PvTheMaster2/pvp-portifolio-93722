@@ -1,0 +1,84 @@
+{
+  "name": "Portfólio de Engenharia Elétrica - Pedro Vitor",
+  "baseUrl": "https://pedro-vitor-portfolio.netlify.app",
+  "authorName": "Pedro Vitor",
+  "authorEmail": "pedro@exemplo.com",
+  "authorUrl": "https://linkedin.com/in/pedro-vitor",
+  "description": "Portfólio profissional de projetos elétricos residenciais, comerciais e prediais desenvolvidos em Revit e AutoCAD",
+  "keywords": "engenharia elétrica, projetos elétricos, Revit, AutoCAD, BIM, instalações elétricas, portfólio",
+  "language": "pt-BR",
+  "social": {
+    "linkedin": "https://linkedin.com/in/pedro-vitor",
+    "github": "https://github.com/pedro-vitor",
+    "email": "pedro@exemplo.com"
+  },
+  "theme": {
+    "primaryColor": "#2563eb",
+    "secondaryColor": "#f59e0b",
+    "accentColor": "#10b981"
+  },
+  "features": {
+    "search": true,
+    "darkMode": false,
+    "fullTextSearch": true,
+    "mermaid": true,
+    "katex": false,
+    "copyButton": true,
+    "backlinks": true,
+    "graph": true,
+    "footer": true,
+    "navigation": true,
+    "toc": true
+  },
+  "plugins": {
+    "analytics": {
+      "google": "G-XXXXXXXXXX"
+    },
+    "comments": {
+      "provider": "giscus",
+      "repo": "pedro-vitor/portfolio-engenharia",
+      "repoId": "R_kgDOGXXXXXXXX",
+      "category": "Announcements",
+      "categoryId": "DIC_kwDOGXXXXXXXX"
+    }
+  },
+  "footer": {
+    "showEditButton": true,
+    "showLastUpdated": true,
+    "showBacklinks": true,
+    "showRssButton": false,
+    "showCopyButton": true
+  },
+  "navigation": {
+    "showBreadcrumb": true,
+    "showDirectory": true,
+    "showGraph": true,
+    "showTags": true
+  },
+  "search": {
+    "provider": "pagefind",
+    "showSearch": true,
+    "showSearchSuggestions": true,
+    "showRecentSearches": true,
+    "showSearchResults": true
+  },
+  "content": {
+    "showToc": true,
+    "showBreadcrumb": true,
+    "showLastUpdated": true,
+    "showEditButton": true,
+    "showCopyButton": true,
+    "showBacklinks": true,
+    "showTags": true,
+    "showGraph": true,
+    "showDirectory": true,
+    "showSearch": true,
+    "showRssButton": false,
+    "showComments": false
+  },
+  "metadata": {
+    "ogImage": "/assets/imagens/og-image.jpg",
+    "twitterImage": "/assets/imagens/twitter-image.jpg",
+    "favicon": "/assets/imagens/favicon.ico"
+  }
+} 

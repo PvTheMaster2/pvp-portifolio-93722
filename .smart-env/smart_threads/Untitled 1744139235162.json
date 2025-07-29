@@ -1,0 +1,333 @@
+{
+  "path": ".smart-env/smart_threads/Untitled 1744139235162.json",
+  "last_embed": {
+    "hash": null
+  },
+  "embeddings": {},
+  "last_read": {
+    "hash": null,
+    "mtime": 0
+  },
+  "created_at": 1744139235162,
+  "responses": {
+    "chatcmpl-BKALxs3FuULN07q0UzIpBGVUzX0FY": {
+      "id": "chatcmpl-BKALxs3FuULN07q0UzIpBGVUzX0FY",
+      "object": "chat.completion",
+      "created": null,
+      "choices": [
+        {
+          "message": {
+            "role": "assistant",
+            "content": "Hello! How can I assist you today?"
+          }
+        }
+      ],
+      "usage": {},
+      "raw": {
+        "id": "chatcmpl-BKALxs3FuULN07q0UzIpBGVUzX0FY",
+        "object": "chat.completion",
+        "created": 0,
+        "model": "",
+        "choices": [
+          {
+            "message": {
+              "index": 0,
+              "role": "assistant",
+              "content": "Hello! How can I assist you today?"
+            }
+          }
+        ],
+        "usage": {}
+      }
+    },
+    "chatcmpl-BKAMO0J7wAMCVTBH9J7fzwXAxIhJ5": {
+      "id": "chatcmpl-BKAMO0J7wAMCVTBH9J7fzwXAxIhJ5",
+      "object": "chat.completion",
+      "created": 1744146084,
+      "choices": [
+        {
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "content": null,
+            "tool_calls": [
+              {
+                "id": "call_ysEqtYweuXzISK1jHv03A45Z",
+                "type": "function",
+                "function": {
+                  "name": "lookup",
+                  "arguments": "{\"hypotheticals\":{\"1\":\"# Third Action Plan\\n\\n## Overview\\nThe third action plan focuses on enhancing community engagement through digital platforms. It aims to increase participation by 30% over the next year.\\n\\n## Key Strategies\\n- Leverage social media channels to reach a broader audience.\\n- Implement feedback loops to incorporate community suggestions.\\n- Host monthly webinars to discuss progress and gather input.\\n\\n## Expected Outcomes\\n- Improved community satisfaction.\\n- Increased volunteer participation.\\n- Enhanced visibility of community projects.\",\"2\":\"# First Action Plan\\n\\n## Overview\\nThe first action plan is centered around improving local infrastructure. The goal is to upgrade roads and public transportation systems to reduce commute times by 15%.\\n\\n## Key Strategies\\n- Collaborate with local government for funding and support.\\n- Prioritize high-traffic areas for initial improvements.\\n- Launch a public awareness campaign about the benefits of the upgrades.\\n\\n## Expected Outcomes\\n- Reduced traffic congestion.\\n- Shorter commute times.\\n- Increased public transport usage.\",\"3\":\"# Second Action Plan\\n\\n## Overview\\nThe second action plan aims to enhance educational resources in the community. It focuses on providing better access to technology and learning materials.\\n\\n## Key Strategies\\n- Partner with local schools to identify needs.\\n- Secure funding for new technology and resources.\\n- Develop after-school programs to support learning.\\n\\n## Expected Outcomes\\n- Improved student performance.\\n- Greater access to educational tools.\\n- Stronger school-community relationships.\"}}"
+                }
+              }
+            ]
+          },
+          "finish_reason": "stop"
+        }
+      ],
+      "usage": {
+        "prompt_tokens": 270,
+        "completion_tokens": 318,
+        "total_tokens": 588,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0
+        }
+      },
+      "raw": {
+        "id": "chatcmpl-BKAMO0J7wAMCVTBH9J7fzwXAxIhJ5",
+        "object": "chat.completion",
+        "created": 1744146084,
+        "model": "gpt-4o-2024-08-06",
+        "choices": [
+          {
+            "index": 0,
+            "message": {
+              "role": "assistant",
+              "content": null,
+              "tool_calls": [
+                {
+                  "id": "call_ysEqtYweuXzISK1jHv03A45Z",
+                  "type": "function",
+                  "function": {
+                    "name": "lookup",
+                    "arguments": "{\"hypotheticals\":{\"1\":\"# Third Action Plan\\n\\n## Overview\\nThe third action plan focuses on enhancing community engagement through digital platforms. It aims to increase participation by 30% over the next year.\\n\\n## Key Strategies\\n- Leverage social media channels to reach a broader audience.\\n- Implement feedback loops to incorporate community suggestions.\\n- Host monthly webinars to discuss progress and gather input.\\n\\n## Expected Outcomes\\n- Improved community satisfaction.\\n- Increased volunteer participation.\\n- Enhanced visibility of community projects.\",\"2\":\"# First Action Plan\\n\\n## Overview\\nThe first action plan is centered around improving local infrastructure. The goal is to upgrade roads and public transportation systems to reduce commute times by 15%.\\n\\n## Key Strategies\\n- Collaborate with local government for funding and support.\\n- Prioritize high-traffic areas for initial improvements.\\n- Launch a public awareness campaign about the benefits of the upgrades.\\n\\n## Expected Outcomes\\n- Reduced traffic congestion.\\n- Shorter commute times.\\n- Increased public transport usage.\",\"3\":\"# Second Action Plan\\n\\n## Overview\\nThe second action plan aims to enhance educational resources in the community. It focuses on providing better access to technology and learning materials.\\n\\n## Key Strategies\\n- Partner with local schools to identify needs.\\n- Secure funding for new technology and resources.\\n- Develop after-school programs to support learning.\\n\\n## Expected Outcomes\\n- Improved student performance.\\n- Greater access to educational tools.\\n- Stronger school-community relationships.\"}}"
+                  }
+                }
+              ],
+              "refusal": null,
+              "annotations": []
+            },
+            "logprobs": null,
+            "finish_reason": "stop"
+          }
+        ],
+        "usage": {
+          "prompt_tokens": 270,
+          "completion_tokens": 318,
+          "total_tokens": 588,
+          "prompt_tokens_details": {
+            "cached_tokens": 0,
+            "audio_tokens": 0
+          },
+          "completion_tokens_details": {
+            "reasoning_tokens": 0,
+            "audio_tokens": 0,
+            "accepted_prediction_tokens": 0,
+            "rejected_prediction_tokens": 0
+          }
+        },
+        "service_tier": "default",
+        "system_fingerprint": "fp_92f14e8683"
+      }
+    }
+  },
+  "messages": {
+    "user-1-1744146057057-1": 1,
+    "assistant-2-1744146058695-1": 2,
+    "user-3-1744146084128-1": 3,
+    "assistant-4-1744146089203-1": 4,
+    "tool-5-1": 5
+  },
+  "branches": {},
+  "class_name": "SmartThread2",
+  "key": "Untitled 1744139235162",
+  "blocks": [
+    {
+      "path": null,
+      "last_embed": {
+        "hash": null
+      },
+      "embeddings": {},
+      "text": null,
+      "length": 0,
+      "last_read": {
+        "hash": null,
+        "at": 0
+      },
+      "thread_key": "Untitled 1744139235162",
+      "content": [
+        {
+          "type": "text",
+          "text": "hi"
+        }
+      ],
+      "role": "user",
+      "tool_calls": null,
+      "tool_call_id": null,
+      "msg_i": 1,
+      "id": "user-1-1744146057057-1",
+      "context": {},
+      "tool_call_output": null,
+      "class_name": "SmartMessage",
+      "branch_i": "1744146057057-1",
+      "key": "Untitled 1744139235162#user-1-1744146057057-1"
+    },
+    {
+      "path": null,
+      "last_embed": {
+        "hash": null
+      },
+      "embeddings": {},
+      "text": null,
+      "length": 0,
+      "last_read": {
+        "hash": null,
+        "at": 0
+      },
+      "thread_key": "Untitled 1744139235162",
+      "content": "Hello! How can I assist you today?",
+      "role": "assistant",
+      "tool_calls": null,
+      "tool_call_id": null,
+      "msg_i": 2,
+      "id": "assistant-2-1744146058695-1",
+      "context": {},
+      "tool_call_output": null,
+      "class_name": "SmartMessage",
+      "response_id": "chatcmpl-BKALxs3FuULN07q0UzIpBGVUzX0FY",
+      "branch_i": "1744146058695-1",
+      "key": "Untitled 1744139235162#assistant-2-1744146058695-1"
+    },
+    {
+      "path": null,
+      "last_embed": {
+        "hash": null
+      },
+      "embeddings": {},
+      "text": null,
+      "length": 0,
+      "last_read": {
+        "hash": null,
+        "at": 0
+      },
+      "thread_key": "Untitled 1744139235162",
+      "content": [
+        {
+          "type": "text",
+          "text": "obsidian://open?vault=OBSIDIAN%20TCC%20R00&file=10%20-%20PERMANENT%2FTerceiro%20Plano%20de%20A%C3%A7%C3%A3o\nobsidian://open?vault=OBSIDIAN%20TCC%20R00&file=10%20-%20PERMANENT%2FPrimeiro%20Plano%20de%20A%C3%A7%C3%A3o\nobsidian://open?vault=OBSIDIAN%20TCC%20R00&file=10%20-%20PERMANENT%2FSegundo%20Plano%20de%20A%C3%A7%C3%A3o\n\ncan you tag for me?"
+        }
+      ],
+      "role": "user",
+      "tool_calls": null,
+      "tool_call_id": null,
+      "msg_i": 3,
+      "id": "user-3-1744146084128-1",
+      "context": {
+        "folder_refs": [],
+        "has_self_ref": true
+      },
+      "tool_call_output": null,
+      "class_name": "SmartMessage",
+      "branch_i": "1744146084128-1",
+      "key": "Untitled 1744139235162#user-3-1744146084128-1"
+    },
+    {
+      "path": null,
+      "last_embed": {
+        "hash": null
+      },
+      "embeddings": {},
+      "text": null,
+      "length": 0,
+      "last_read": {
+        "hash": null,
+        "at": 0
+      },
+      "thread_key": "Untitled 1744139235162",
+      "content": null,
+      "role": "assistant",
+      "tool_calls": [
+        {
+          "id": "call_ysEqtYweuXzISK1jHv03A45Z",
+          "type": "function",
+          "function": {
+            "name": "lookup",
+            "arguments": "{\"hypotheticals\":{\"1\":\"# Third Action Plan\\n\\n## Overview\\nThe third action plan focuses on enhancing community engagement through digital platforms. It aims to increase participation by 30% over the next year.\\n\\n## Key Strategies\\n- Leverage social media channels to reach a broader audience.\\n- Implement feedback loops to incorporate community suggestions.\\n- Host monthly webinars to discuss progress and gather input.\\n\\n## Expected Outcomes\\n- Improved community satisfaction.\\n- Increased volunteer participation.\\n- Enhanced visibility of community projects.\",\"2\":\"# First Action Plan\\n\\n## Overview\\nThe first action plan is centered around improving local infrastructure. The goal is to upgrade roads and public transportation systems to reduce commute times by 15%.\\n\\n## Key Strategies\\n- Collaborate with local government for funding and support.\\n- Prioritize high-traffic areas for initial improvements.\\n- Launch a public awareness campaign about the benefits of the upgrades.\\n\\n## Expected Outcomes\\n- Reduced traffic congestion.\\n- Shorter commute times.\\n- Increased public transport usage.\",\"3\":\"# Second Action Plan\\n\\n## Overview\\nThe second action plan aims to enhance educational resources in the community. It focuses on providing better access to technology and learning materials.\\n\\n## Key Strategies\\n- Partner with local schools to identify needs.\\n- Secure funding for new technology and resources.\\n- Develop after-school programs to support learning.\\n\\n## Expected Outcomes\\n- Improved student performance.\\n- Greater access to educational tools.\\n- Stronger school-community relationships.\"}}"
+          }
+        }
+      ],
+      "tool_call_id": null,
+      "msg_i": 4,
+      "id": "assistant-4-1744146089203-1",
+      "context": {},
+      "tool_call_output": null,
+      "class_name": "SmartMessage",
+      "response_id": "chatcmpl-BKAMO0J7wAMCVTBH9J7fzwXAxIhJ5",
+      "branch_i": "1744146089203-1",
+      "key": "Untitled 1744139235162#assistant-4-1744146089203-1"
+    },
+    {
+      "path": null,
+      "last_embed": {
+        "hash": null
+      },
+      "embeddings": {},
+      "text": null,
+      "length": 0,
+      "last_read": {
+        "hash": null,
+        "at": 0
+      },
+      "thread_key": "Untitled 1744139235162",
+      "content": null,
+      "role": "tool",
+      "tool_calls": null,
+      "tool_call_id": "call_ysEqtYweuXzISK1jHv03A45Z",
+      "msg_i": 5,
+      "id": "tool-5-1",
+      "context": {},
+      "tool_call_output": [
+        {
+          "key": "00 - INBOX/00 - TCC(VEERSAOCORRIGIDA)/command_parser.md#Add Action + Noun#{1}",
+          "score": 0.5847203089723354
+        },
+        {
+          "key": "00 - INBOX/00 - TCC(VEERSAOCORRIGIDA)/orchestrator_agent.md#--- Passar action e entity para database_agent.search ---#{1}",
+          "score": 0.5661583583421612
+        },
+        {
+          "key": "00 - INBOX/00 - TCC(VEERSAOCORRIGIDA)/botao_revit_correcao.md#Em vez de update_content, tente usar update_text se disponível, ou ignore#{1}",
+          "score": 0.5649159786359065
+        },
+        {
+          "key": "00 - INBOX/00 - TCC(VEERSAOCORRIGIDA)/main2.md#Processa a correção usando o ValidationAgent com contexto enriquecido",
+          "score": 0.5542029669704966
+        },
+        {
+          "key": "00 - INBOX/00 - TCC(VEERSAOCORRIGIDA)/command_parser.md#Add specific API calls#{1}",
+          "score": 0.5535493710550005
+        },
+        {
+          "key": "00 - INBOX/00 - TCC(VEERSAOCORRIGIDA)/enhanced_database_agent.md#Definir queries específicas para capturar funções relacionadas a tomadas#{1}",
+          "score": 0.5503140579019058
+        },
+        {
+          "key": "00 - INBOX/00 - TCC(VEERSAOCORRIGIDA)/database_agent.md#Usa 'name' como chave nos metadados agora[2]#{1}",
+          "score": 0.5472609294734654
+        },
+        {
+          "key": "00 - INBOX/00 - TCC(VEERSAOCORRIGIDA)/database_agent.md#--- Passar action e entity para super().search ---",
+          "score": 0.547015758396023
+        },
+        {
+          "key": "00 - INBOX/00 - TCC(VEERSAOCORRIGIDA)/orchestrator_agent.md#Create consolidated output#{1}",
+          "score": 0.5460364332444428
+        },
+        {
+          "key": "00 - INBOX/00 - TCC(VEERSAOCORRIGIDA)/command_parser.md#Add param-based queries#{1}",
+          "score": 0.545007941933034
+        }
+      ],
+      "class_name": "SmartMessage",
+      "tool_name": "lookup",
+      "response_id": "call_ysEqtYweuXzISK1jHv03A45Z",
+      "key": "Untitled 1744139235162#tool-5-1"
+    }
+  ]
+}

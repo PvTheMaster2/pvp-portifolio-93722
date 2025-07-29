@@ -1,0 +1,304 @@
+{
+  "main": {
+    "id": "c7d30e9b97fec99e",
+    "type": "split",
+    "children": [
+      {
+        "id": "18abf28034eec826",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "5d317dfd218c7071",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "9ad8475d5dedca88",
+    "type": "split",
+    "children": [
+      {
+        "id": "ac9a35054d1a2913",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "3e6d224aebbb97dc",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": true
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "373c30763f1e971a",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "3b8d98a0ed392a76",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 677.5
+  },
+  "right": {
+    "id": "24023d18c86abac7",
+    "type": "split",
+    "children": [
+      {
+        "id": "b4aef97fd367a375",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "b1fa14afaa4bf854",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "30 - MPS OF CONTENT/Yoga MOC.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for Yoga MOC"
+            }
+          },
+          {
+            "id": "22dcdd2207748ebf",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "00 - INBOX/Anahata/Sistema Nadis - Completo Interativo.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": false
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from Sistema Nadis - Completo Interativo"
+            }
+          },
+          {
+            "id": "b9c40afd727e26f1",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "10 - PERMANENT/Zettels/Yoga/60-1--se-receber-uma-agressao.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of 60-1--se-receber-uma-agressao"
+            }
+          },
+          {
+            "id": "b5321f493253d01f",
+            "type": "leaf",
+            "state": {
+              "type": "copilot-tab",
+              "state": {},
+              "icon": "star",
+              "title": "AI"
+            }
+          },
+          {
+            "id": "f1547c463ca1858d",
+            "type": "leaf",
+            "state": {
+              "type": "copilot-tab",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "Plugin no longer active"
+            }
+          },
+          {
+            "id": "886139cb56fbba8e",
+            "type": "leaf",
+            "state": {
+              "type": "semantic-search-tab",
+              "state": {},
+              "icon": "search",
+              "title": "Semantic Search"
+            }
+          },
+          {
+            "id": "e0033084d9be9935",
+            "type": "leaf",
+            "state": {
+              "type": "copilot-tab",
+              "state": {},
+              "icon": "star",
+              "title": "AI"
+            }
+          },
+          {
+            "id": "bb0e023aa858eb7a",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "fd191757cac5519c",
+            "type": "leaf",
+            "state": {
+              "type": "smart-connections-view",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "Plugin no longer active"
+            }
+          },
+          {
+            "id": "049881419eba08aa",
+            "type": "leaf",
+            "state": {
+              "type": "copilot-chat-view",
+              "state": {},
+              "icon": "message-square",
+              "title": "Copilot"
+            }
+          },
+          {
+            "id": "85816710cad55f0e",
+            "type": "leaf",
+            "state": {
+              "type": "mxmind-view",
+              "state": {},
+              "icon": "network",
+              "title": "Mxmind"
+            }
+          }
+        ],
+        "currentTab": 10
+      }
+    ],
+    "direction": "horizontal",
+    "width": 200,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "obsidian-book-search-plugin:Create new book note": false,
+      "obsidian-projects:Open projects": false,
+      "copilot:Open Copilot Chat": false,
+      "templater-obsidian:Templater": false,
+      "digitalgarden:Digital Garden Publication Center": false,
+      "mxmind:Mxmind": false,
+      "smart-connections:Open: View Smart Connections": false,
+      "smart-connections:Open: Smart Chat Conversation": false
+    }
+  },
+  "active": "5d317dfd218c7071",
+  "lastOpenFiles": [
+    "00 - INBOX/Anahata/canvas_anahata_completo.canvas",
+    "00 - INBOX/01 - FLEETING NOTES/99 - PLANO DE TRABALHO.md",
+    "00 - INBOX/01 - FLEETING NOTES/02 - MULHADHARA CHAKRA.md",
+    "00 - INBOX/05 - CANVAS/Shuddhi Sadhana.canvas",
+    "00 - INBOX/Anahata/Anahata Chakra.md",
+    "00 - INBOX/05 - CANVAS/Shuddhi Sadhana.txt",
+    "00 - INBOX/05 - CANVAS/Novo(a) Documento de Texto.txt",
+    "00 - INBOX/05 - CANVAS",
+    "00 - INBOX/Nova pasta",
+    "00 - INBOX/04 - INVESTIGAÇÕES/site personalizado.txt",
+    "00 - INBOX/04 - INVESTIGAÇÕES/Novo(a) Documento de Texto.txt",
+    "00 - INBOX/04 - INVESTIGAÇÕES/site shuddi.txt",
+    "00 - INBOX/04 - INVESTIGAÇÕES/html suddhi.txt",
+    "00 - INBOX/04 - INVESTIGAÇÕES/Shuddhi Sādhanā_ Guia Completo_.pdf",
+    "00 - INBOX/04 - INVESTIGAÇÕES/Plano Completo para Material Didático de Yoga SwáSthya – Módulo __Shuddhi Sādhanā__ (Purificação dos.pdf",
+    "00 - INBOX/Anahata/Anahata Simbol.jpg",
+    "00 - INBOX/02 - LITERATURE/mim/Yoga_R00.md",
+    "00 - INBOX/02 - LITERATURE/mim/Yoga_R00_cleaned_utf8.md",
+    "00 - INBOX/02 - LITERATURE/mim/Yoga_R00_cleaned.md",
+    "EXPLICAÇÃO EXPERIENCIA/RESPOSTA COMPLETINHA.md",
+    "EXPLICAÇÃO EXPERIENCIA/FINAL.md",
+    "EXPLICAÇÃO EXPERIENCIA/EXPLICAÇÃO EXPERIENCIA/Resposta Relato 4.md",
+    "EXPLICAÇÃO EXPERIENCIA/EXPLICAÇÃO EXPERIENCIA/Resposta Relato 3.md",
+    "EXPLICAÇÃO EXPERIENCIA/EXPLICAÇÃO EXPERIENCIA/Resposta Relato 2.md",
+    "EXPLICAÇÃO EXPERIENCIA/EXPLICAÇÃO EXPERIENCIA/Resposta Relato 1.md",
+    "EXPLICAÇÃO EXPERIENCIA/EXPLICAÇÃO EXPERIENCIA/Relato1.md",
+    "EXPLICAÇÃO EXPERIENCIA/EXPLICAÇÃO EXPERIENCIA/Explicação MAPA 3.md",
+    "EXPLICAÇÃO EXPERIENCIA/EXPLICAÇÃO EXPERIENCIA/Explicação MAPA 2.md",
+    "EXPLICAÇÃO EXPERIENCIA/EXPLICAÇÃO EXPERIENCIA/Explicação MAPA 1.md",
+    "EXPLICAÇÃO EXPERIENCIA/20 - MPS OF CONTENTS/test.png",
+    "EXPLICAÇÃO EXPERIENCIA/20 - MPS OF CONTENTS/Mapa explicação.png",
+    "EXPLICAÇÃO EXPERIENCIA/20 - MPS OF CONTENTS/MAPA 3.md",
+    "EXPLICAÇÃO EXPERIENCIA/20 - MPS OF CONTENTS/MAPA 2.md",
+    "EXPLICAÇÃO EXPERIENCIA/20 - MPS OF CONTENTS/MAPA 1.md",
+    "00 - INBOX/03 - IMAGENS_PDF/Screenshot_9.png",
+    "00 - INBOX/03 - IMAGENS_PDF/Screenshot_8.png",
+    "00 - INBOX/03 - IMAGENS_PDF/Screenshot_7.png",
+    "00 - INBOX/03 - IMAGENS_PDF/Screenshot_6.png",
+    "00 - INBOX/03 - IMAGENS_PDF/Screenshot_5.png",
+    "00 - INBOX/03 - IMAGENS_PDF/Screenshot_4.png",
+    "00 - INBOX/03 - IMAGENS_PDF/Screenshot_3.png",
+    "EXPLICAÇÃO EXPERIENCIA/MAPA 1.txt.md",
+    "EXPLICAÇÃO EXPERIENCIA/00 - Arquivos Experiencia/user.prompt.md",
+    "EXPLICAÇÃO EXPERIENCIA/00 - Arquivos Experiencia/PROMPT TEMPLATE TXT.md",
+    "EXPLICAÇÃO EXPERIENCIA/00 - Arquivos Experiencia/RESPOSTA COMPLETINHA.md",
+    "EXPLICAÇÃO EXPERIENCIA/00 - Arquivos Experiencia/PROMPT OBSIDIAN.md",
+    "EXPLICAÇÃO EXPERIENCIA/00 - Arquivos Experiencia/FINAL.md",
+    "00 - INBOX/Anahata/anahata sem confirmação.canvas",
+    "Untitled.canvas",
+    "10 - PERMANENT/01 - PERMANENT NOTES/Anahata/anahata sem confirmação.canvas",
+    "00 - INBOX/Anahata/canvas_nadis.canvas",
+    "10 - PERMANENT/01 - PERMANENT NOTES/Anahata/canvas_anahata_completo.canvas",
+    "10 - PERMANENT/01 - PERMANENT NOTES/Anahata/canvas_nadis.canvas",
+    "10 - PERMANENT/Anahata/canvas_nadis.canvas",
+    "10 - PERMANENT/Anahata/canvas_anahata_completo.canvas"
+  ]
+}

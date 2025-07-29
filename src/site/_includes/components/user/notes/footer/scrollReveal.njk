@@ -1,0 +1,231 @@
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+  // ===== ANIMAÇÕES DE SCROLL REVEAL =====
+  const revealElements = document.querySelectorAll('.reveal');
+  
+  const revealObserver = new IntersectionObserver((entries) => {
+    entries.forEach(entry => {
+      if (entry.isIntersecting) {
+        // Adicionar classe para animar
+        entry.target.classList.add('revealed');
+        
+        // Parar de observar após a animação
+        revealObserver.unobserve(entry.target);
+      }
+    });
+  }, {
+    threshold: 0.1,
+    rootMargin: '0px 0px -50px 0px'
+  });
+  
+  // Começar a observar todos os elementos .reveal
+  revealElements.forEach(element => {
+    revealObserver.observe(element);
+  });
+
+  // ===== GALERIA DE IMAGENS =====
+  const galleryItems = document.querySelectorAll('.gallery-item');
+  const imgModal = document.getElementById('img-modal');
+  const modalImg = document.getElementById('modal-img');
+  const imgModalClose = document.getElementById('img-modal-close');
+
+  galleryItems.forEach(item => {
+    const img = item.querySelector('.gallery-thumb');
+    if (img) {
+      img.addEventListener('click', function() {
+        // Mostrar modal com imagem ampliada
+        modalImg.src = this.src.replace('_thumb', '').replace('thumb', 'full');
+        modalImg.alt = this.alt;
+        imgModal.style.display = 'block';
+        
+        // Animar entrada
+        setTimeout(() => {
+          modalImg.style.opacity = '1';
+          modalImg.style.transform = 'scale(1)';
+        }, 10);
+      });
+    }
+  });
+
+  // Fechar modal de imagem
+  if (imgModalClose) {
+    imgModalClose.addEventListener('click', closeImgModal);
+  }
+
+  // Fechar modal clicando fora
+  if (imgModal) {
+    imgModal.addEventListener('click', function(e) {
+      if (e.target === imgModal) {
+        closeImgModal();
+      }
+    });
+  }
+
+  function closeImgModal() {
+    modalImg.style.opacity = '0';
+    modalImg.style.transform = 'scale(0.9)';
+    setTimeout(() => {
+      imgModal.style.display = 'none';
+    }, 300);
+  }
+
+  // ===== GALERIA DE PDFs =====
+  const pdfItems = document.querySelectorAll('.pdf-item');
+  const pdfModal = document.getElementById('pdf-modal');
+  const pdfIframe = document.getElementById('pdf-iframe');
+  const modalTitle = document.getElementById('modal-title');
+  const modalClose = document.getElementById('modal-close');
+
+  pdfItems.forEach(item => {
+    item.addEventListener('click', function() {
+      const pdfPath = this.getAttribute('data-pdf');
+      const pdfTitle = this.querySelector('.pdf-title').textContent;
+      
+      if (pdfPath && pdfIframe) {
+        // Configurar iframe
+        pdfIframe.src = pdfPath;
+        modalTitle.textContent = pdfTitle;
+        pdfModal.style.display = 'block';
+        
+        // Adicionar loading state
+        pdfIframe.classList.add('loading');
+        pdfIframe.onload = function() {
+          pdfIframe.classList.remove('loading');
+        };
+      }
+    });
+  });
+
+  // Fechar modal de PDF
+  if (modalClose) {
+    modalClose.addEventListener('click', closePdfModal);
+  }
+
+  // Fechar modal clicando fora
+  if (pdfModal) {
+    pdfModal.addEventListener('click', function(e) {
+      if (e.target === pdfModal) {
+        closePdfModal();
+      }
+    });
+  }
+
+  function closePdfModal() {
+    pdfModal.style.display = 'none';
+    pdfIframe.src = '';
+  }
+
+  // ===== ANIMAÇÕES DE HOVER =====
+  const interactiveElements = document.querySelectorAll('.gallery-item, .pdf-preview, .scope-card, .stat');
+  
+  interactiveElements.forEach(element => {
+    element.addEventListener('mouseenter', function() {
+      this.style.transform = 'translateY(-4px)';
+    });
+    
+    element.addEventListener('mouseleave', function() {
+      this.style.transform = 'translateY(0)';
+    });
+  });
+
+  // ===== LAZY LOADING =====
+  const lazyImages = document.querySelectorAll('img[loading="lazy"]');
+  
+  const imageObserver = new IntersectionObserver((entries) => {
+    entries.forEach(entry => {
+      if (entry.isIntersecting) {
+        const img = entry.target;
+        img.src = img.dataset.src || img.src;
+        img.classList.remove('lazy');
+        imageObserver.unobserve(img);
+      }
+    });
+  });
+
+  lazyImages.forEach(img => {
+    imageObserver.observe(img);
+  });
+
+  // ===== SMOOTH SCROLL =====
+  const smoothScrollLinks = document.querySelectorAll('a[href^="#"]');
+  
+  smoothScrollLinks.forEach(link => {
+    link.addEventListener('click', function(e) {
+      e.preventDefault();
+      const targetId = this.getAttribute('href');
+      const targetElement = document.querySelector(targetId);
+      
+      if (targetElement) {
+        targetElement.scrollIntoView({
+          behavior: 'smooth',
+          block: 'start'
+        });
+      }
+    });
+  });
+
+  // ===== KEYBOARD NAVIGATION =====
+  document.addEventListener('keydown', function(e) {
+    // ESC para fechar modais
+    if (e.key === 'Escape') {
+      if (imgModal && imgModal.style.display === 'block') {
+        closeImgModal();
+      }
+      if (pdfModal && pdfModal.style.display === 'block') {
+        closePdfModal();
+      }
+    }
+  });
+
+  // ===== PERFORMANCE OPTIMIZATION =====
+  // Debounce para scroll events
+  let scrollTimeout;
+  window.addEventListener('scroll', function() {
+    clearTimeout(scrollTimeout);
+    scrollTimeout = setTimeout(() => {
+      // Otimizações durante scroll
+    }, 100);
+  });
+
+  // ===== ACCESSIBILITY =====
+  // Adicionar suporte a navegação por teclado
+  const focusableElements = document.querySelectorAll('button, [href], input, select, textarea, [tabindex]:not([tabindex="-1"])');
+  
+  focusableElements.forEach(element => {
+    element.addEventListener('keydown', function(e) {
+      if (e.key === 'Enter' || e.key === ' ') {
+        e.preventDefault();
+        this.click();
+      }
+    });
+  });
+
+  // ===== ANALYTICS (opcional) =====
+  // Rastrear cliques em PDFs
+  pdfItems.forEach(item => {
+    item.addEventListener('click', function() {
+      const pdfName = this.querySelector('.pdf-title').textContent;
+      console.log(`PDF opened: ${pdfName}`);
+      // Aqui você pode adicionar Google Analytics ou outro tracking
+    });
+  });
+
+  // ===== RESPONSIVE BEHAVIOR =====
+  function handleResize() {
+    const isMobile = window.innerWidth <= 768;
+    
+    // Ajustar comportamento baseado no tamanho da tela
+    if (isMobile) {
+      // Otimizações para mobile
+      document.body.classList.add('mobile');
+    } else {
+      document.body.classList.remove('mobile');
+    }
+  }
+
+  window.addEventListener('resize', handleResize);
+  handleResize(); // Executar na carga inicial
+
+  console.log('Portfolio interactions loaded successfully! ��');
+});
+</script> 

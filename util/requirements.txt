@@ -1,0 +1,14 @@
+# Dependências para PDF Cropper
+# Instale com: pip install -r requirements.txt
+
+# PyMuPDF - Manipulação de PDFs
+PyMuPDF==1.23.8
+
+# Matplotlib - Interface gráfica para seleção
+matplotlib==3.7.2
+
+# NumPy - Processamento de arrays
+numpy==1.24.3
+
+# Pillow - Processamento de imagens (opcional)
+Pillow==10.0.1 
